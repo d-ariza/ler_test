@@ -1,0 +1,33 @@
+### Obtener todos los usuarios
+GET http://localhost:3000/api/data
+Content-Type: application/json
+
+### pruebas para implementacion completa de un crud
+
+### Crear un nuevo usuario
+POST http://localhost:3000/api/data
+Content-Type: application/json
+
+{
+  "nombre": "Nuevo Usuario",
+  "correo": "nuevo.usuario@example.com",
+  "edad": 29
+}
+
+###
+
+### Actualizar un usuario existente
+PUT http://localhost:3000/api/data/1
+Content-Type: application/json
+
+{
+  "nombre": "Usuario Actualizado",
+  "correo": "usuario.actualizado@example.com",
+  "edad": 30
+}
+
+###
+
+### Eliminar un usuario
+DELETE http://localhost:3000/api/data/1
+Content-Type: application/json

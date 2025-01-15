@@ -1,0 +1,17 @@
+<h2 class="text-center">Lista de Usuarios</h2>
+<table class="table table-success table-striped table-hover table-responsive-md">
+  <thead>
+  <tr>
+    <th scope="col">Nombre</th>
+    <th scope="col">Correo</th>
+    <th scope="col">Edad</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let user of users" class="table-active">
+    <td>{{ user.nombre }}</td>
+    <td>{{ user.correo }}</td>
+    <td>{{ user.edad }}</td>
+  </tr>
+  </tbody>
+</table>
