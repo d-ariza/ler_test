@@ -19,7 +19,7 @@ Este proyecto es un ejemplo de cómo crear un microservicio utilizando Node.js y
 │   ├── server.js
 │   └── __tests__
 │       └── server.test.js
-├── documentacion.md
+├── README.md
 └── front
     ├── angular.json
     ├── package.json
@@ -316,7 +316,7 @@ También Se ha añadido una prueba básica para el backend utilizando Jest y Sup
 ### 2. Integración del Frontend con el Backend
 
 - **El formulario en Angular debe consumir y mostrar correctamente los datos del microservicio.**
-   - ✔ Se ha desarrollado un formulario en Angular que utiliza `HttpClient` para realizar una solicitud GET al backend y obtener los datos de los usuarios, mostrando estos datos en una tabla estilizada con Bootstrap.
+   - ✔ Se ha desarrollado un formulario en Angular que utiliza `HttpClient` para realizar una solicitud GET al backend y obtener los datos de los usuarios, mostrando estos datos en una tabla estilizada y responsiva con Bootstrap.
 
 ### 3. Código Limpio y Buenas Prácticas
 
@@ -328,7 +328,7 @@ También Se ha añadido una prueba básica para el backend utilizando Jest y Sup
 ### 4. Documentación Clara y Completa
 
 - **El archivo README.md debe explicar claramente cómo ejecutar el proyecto y realizar las pruebas.**
-   - ✔ Se ha creado un archivo `documentacion.md` que incluye:
+   - ✔ Se ha creado un archivo `README.md` que incluye:
       - Pasos detallados para ejecutar el backend y el frontend localmente.
       - Comandos para crear la tabla `usuarios` en PostgreSQL.
       - Detalles sobre cómo probar el microservicio utilizando Postman o directamente desde el frontend.
